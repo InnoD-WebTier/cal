@@ -116,3 +116,13 @@ h3 {
 .overline {
     padding-bottom: 10px;
 }
+
+.point {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.indent {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
