@@ -103,3 +103,12 @@ html, body {
 }
 
 /* NEW STYLES HERE */
+
+h3 {
+    text-decoration: overline;
+}
+
+.overline {
+    padding-bottom: 10px;
+}
+
