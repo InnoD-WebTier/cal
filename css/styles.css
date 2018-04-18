@@ -1,23 +1,40 @@
 /* FONTS */
 
 @font-face {
-    font-family: '';
-    src: url();
+    font-family: 'HKGrotesk';
+    src: url("../fonts/HKGrotesk-Medium.otf");
 }
 
 @font-face {
-	font-family: '';
-	src: url();
+    font-family: 'HKGrotesk-Light';
+    src: url("../fonts/HKGrotesk-Light.otf");
 }
 
-.apercu {
-	font-family: '';
+@font-face {
+    font-family: 'HKGrotesk-SemiBold';
+    src: url("../fonts/HKGrotesk-SemiBold.otf");
 }
 
-.apercu-bold {
-	font-family: '';
+@font-face {
+    font-family: 'HKGrotesk-Bold';
+    src: url("../fonts/HKGrotesk-Bold.otf");
 }
 
+.hk {
+  font-family: 'HKGrotesk', sans-serif;
+}
+
+.hk-bold {
+  font-family: 'HKGrotesk-Bold', sans-serif;
+}
+
+.hk-light {
+  font-family: 'HKGrotesk-Light', sans-serif;
+}
+
+.hk-semibold {
+  font-family: 'HKGrotesk-SemiBold', sans-serif;
+}
 
 /*
   http://meyerweb.com/eric/tools/css/reset/
