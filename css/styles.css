@@ -105,7 +105,8 @@ html, body {
 /* NEW STYLES HERE */
 
 h3 {
-    text-decoration: overline;
+/*    text-decoration: overline;*/
+/*    border-top:2px #0000;*/
 }
 
 .overline {
