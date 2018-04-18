@@ -55,12 +55,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -104,12 +104,11 @@ html, body {
 
 /* NEW STYLES HERE */
 
-h3 {
-/*    text-decoration: overline;*/
-/*    border-top:2px #0000;*/
+body {
+
+  color: #262626;
 }
 
 .overline {
     padding-bottom: 10px;
 }
-
