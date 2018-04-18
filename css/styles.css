@@ -104,6 +104,10 @@ html, body {
 
 /* NEW STYLES HERE */
 
+h1 {
+  padding: 200px;
+}
+
 h3 {
     text-decoration: overline;
 }
@@ -111,4 +115,3 @@ h3 {
 .overline {
     padding-bottom: 10px;
 }
-
