@@ -105,7 +105,6 @@ html, body {
 /* NEW STYLES HERE */
 
 body {
-
   color: #262626;
 }
 
@@ -115,7 +114,7 @@ body {
 
 .content {
   padding-left: 50px;
-  line-height: 28px;
+  line-height: 29px;
 }
 
 .bold {
