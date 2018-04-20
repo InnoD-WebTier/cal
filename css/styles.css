@@ -115,13 +115,9 @@ body {
 
 .content {
   padding-left: 50px;
+  line-height: 28px;
 }
 
 .bold {
   font-weight: bold;
-}
-
-.indent {
-  padding-left: 10px;
-  padding-bottom: 5px;
 }
