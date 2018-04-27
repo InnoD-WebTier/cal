@@ -105,10 +105,18 @@ html, body {
 /* NEW STYLES HERE */
 
 body {
-
   color: #262626;
 }
 
 .overline {
     padding-bottom: 10px;
+}
+
+.content {
+  padding-left: 50px;
+  line-height: 29px;
+}
+
+.bold {
+  font-weight: bold;
 }
