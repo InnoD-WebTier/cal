@@ -10,22 +10,80 @@
     margin:auto;
     border: 15px solid white;
   }
+  #join {
+  border-style: solid;
+    border-color: white;
+}
+#join:link, #join:visited {
+    border: 2px solid white; 
+    color: white;
+    padding: 10px 30px 8px 30px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#join:hover, #join:active {
+    background-color: white;
+    color: black;
+}
+
+  #pic {
+    width: 80%;
+    display: block;
+    margin:auto;
+    border: 15px solid white;
+  }
+
+   a#tabs{
+       position: relative;
+  
+  color: white;
+  text-decoration: none;
+    }
+
+    a#tabs:hover {
+    color: white;
+  }
+
+  a#tabs:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a#tabs:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: white;
+}
 </style>
 </head>
 <body>
   <div class="hk" style="background-color:#262626; margin:20px; height:calc(100% - 40px); width:calc(100% - 40px);">
     <!-- NAVBAR -->
-    <nav class="db dt-l w-100 border-box pa4 ph5-l">
+        <nav class="db dt-l w-100 border-box pa4 ph5-l">
       <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
         <img src="http://tachyons.io/img/logo.jpg" class="dib w3 h3 br-100" alt="Site Name">
       </a>
       <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-        <a class="link dim white f6 f3-l dib mr3 mr4-l underline" href="#" title="Resources">Resources</a>
-        <a class="link dim white f6 f3-l dib mr3 mr4-l underline" href="#" title="Careers">Careers</a>
-        <a class="link dim white f6 f3-l dib mr3 mr4-l underline" href="#" title="Sponsors">Sponsors</a>
-        <div class="white ba bw1 pa2 di" style="padding:1rem 1rem 0.75rem;" >
-          <a class="link dim white f6 f3-l dib mr3 mr4-l" style="margin:auto;" href="#" title="Join">Join</a>
-        </div>
+        <a class="white f6 f5-l dib mr3 mr4-l" href="resources/whyactuary.html" title="Resources" style="text-decoration: none; border-bottom: 2px solid white; padding-bottom: 4px;">RESOURCES</a>
+        <a id = "tabs" class="white f6 f5-l dib mr3 mr4-l" href="../careers.html" title="Careers">CAREERS</a>
+        <a id = "tabs" class="white f6 f5-l dib mr3 mr4-l" href="../sponsors.html" title="Sponsors">SPONSORS</a>
+        
+        <a id="join"  href="../join.html" title="Join">JOIN</a>
+  
+        
       </div>
     </nav>
 
@@ -34,10 +92,10 @@
       <div class="cover bg-left bg-center-l">
         <div class="pb5 pb6-m pb7-l">
           <div class="tl-l mt4 mt5-m mt6-l ph3 w-70 center">
-            <h1 class="athelas f-headline fw2 white mb0 lh-title">Resources</h1>
-            <h2 class="fw1 f2 white-90 mb4"> › Specializations</h2>
+            <h1 class="athelas f-headline fw2 white mb0 lh-title" style="font-size: 80px">Resources</h1>
+            <h2 class="fw1 f2 white-90 mb4" style="font-size: 35px"> › Specializations</h2>
             <ul class="fw1 f3 white-80 mt3 mb4" id="menu">
-                <div class="dropdown"><a href="exams.html">Exams</a>
+                <div class="dropdown" style="font-size: 20px"><a href="exams.html">Exams</a>
                   <div class="dropdown-content">
                     <a href="exams2.html">Details</a>
                     <a href="exams3.html">Recommended Procedures</a>
@@ -45,8 +103,8 @@
                   </div>
                 </div>
               </a>
-                <a href="events.html" style="padding-right: 10px;">Events</a>
-                  <div class="dropdown"><a>Career</a>
+                <a href="events.html" style="padding-right: 10px;font-size: 20px">Events</a>
+                  <div class="dropdown" style="font-size: 20px"><a>Career</a>
                     <div class="dropdown-content">
                       <a href="whyactuary.html">Why Actuary?</a>
                       <a href="requirements.html">Requirements</a>
