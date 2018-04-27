@@ -3,39 +3,6 @@
 <title>Cal Actuarial League</title>
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
 <link rel="stylesheet" type="text/css" href="../css/styles.css">
-<style>
-  #pic {
-    width: 80%;
-    display: block;
-    margin:auto;
-    border: 15px solid white;
-  }
-     table {
-        /*font-family: arial, sans-serif;*/
-        border-collapse: collapse;
-        width: 100%;
-        font-size: 12px;
-    }
-    td, th {
-
-        text-align: left;
-        padding: 8px;
-    }
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-    ul#menu li {
-      padding: 10px;
-      display:inline;
-
-    }
-    a {
-      text-decoration: none;
-      color: white;
-    }
-    a:hover {
-    text-decoration: underline;
-</style>
 </head>
 <body>
   <div class="hk" style="background-color:#262626; margin:20px; height:calc(100% - 40px); width:calc(100% - 40px);">
@@ -63,7 +30,15 @@
             <ul class="fw1 f3 white-80 mt3 mb4" id="menu">
   <li><a href="exams.html" >Exams</a></li>
   <li><a href="events.html" style="text-decoration: underline">Events</a></li>
-  <li><a href="career.html" >Career</a></li>
+  <li>
+<div class="dropdown"><a>Career</a>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+  </a></li>
 </ul>
           </div>
         </div>
@@ -74,6 +49,7 @@
       <!-- CONTENT -->
       <div class="mw9 center ph3-ns" style="margin:20px;">
         <div class="cf ph2-ns pv6 w-70 center">
+          <div class="">
           <table>
   <tr>
     <th>Name</th>
