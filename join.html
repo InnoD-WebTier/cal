@@ -1,12 +1,74 @@
+<!--DONE W NAVBAR EDITS - MEEJIN-->
 <html>
 <head>
 <title>Cal Actuarial League</title>
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<style>
 
+#join {
+  border-style: solid;
+    border-color: white;
+}
+#join:link, #join:visited {
+    border: 2px solid white; 
+    color: black;
+    padding: 10px 30px 8px 30px ;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#join:hover, #join:active {
+    background-color: white;
+    color: black;
+}
+
+  #pic {
+    width: 80%;
+    display: block;
+    margin:auto;
+    border: 15px solid white;
+  }
+
+   a#tabs{
+       position: relative;
+  
+  color: white;
+  text-decoration: none;
+    }
+
+    a#tabs:hover {
+    color: white;
+  }
+
+  a#tabs:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a#tabs:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: white;
+}
+
+</style>
 </head>
 <body>
-  <div class="hk" style="background-color:#262626; margin:20px; height:50%; width:calc(100% - 40px);">
+  <div class="hk" style="background-color:#262626; margin:20px; height:55%; width:calc(100% - 40px);">
     <!-- NAVBAR -->
     <nav class="db dt-l w-100 border-box pa4 ph5-l">
       <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
@@ -16,9 +78,10 @@
         <a id = "tabs" class="white f6 f5-l dib mr3 mr4-l" href="#" title="Resources">RESOURCES</a>
         <a id = "tabs" class="white f6 f5-l dib mr3 mr4-l" href="#" title="Careers">CAREERS</a>
         <a id = "tabs" class="white f6 f5-l dib mr3 mr4-l" href="#" title="Sponsors">SPONSORS</a>
-        <div id="joinbox" class="white ba bw1 pa2 di" style="padding:0.5rem 1.75rem 0.5rem;" >
-          <button class="button ink dim white f6 f5-l dib mr3 mr4-l"><a id = "join" class="link dim white f6 f5-l dib mr3 mr4-l" style="margin:auto;" href="#" title="Join">JOIN</a></button>
-        </div>
+        
+        <a id="join"  href="#" title="Join">JOIN</a>
+  
+        
       </div>
     </nav>
 
@@ -27,7 +90,7 @@
       <div class="cover bg-left bg-center-l">
         <div class="pb5 pb6-m pb7-l">
           <div class="tl-l mt4 mt5-m mt6-l ph3 w-70 center">
-            <h1 class="athelas white" style="font-size: 48px">Join Us</h1>
+            <h1 class="athelas white" style="font-size: 80px">Join Us</h1>
             <!-- <h2 class="fw1 f3 white-80 mt3 mb4">UC Berkeley’s Premier Resource for Aspiring Actuaries</h2> -->
           </div>
         </div>
